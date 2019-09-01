@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+        background-color: #fff;
+        color: #555;
+        font-family: 'Lato','arial',sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        text-rendering: optimizeLegibility;
+}
+
+.clearfix{ zoom: 1;}
+.clearfix::after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*reusable*/
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.long-copy{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 145%;/*jarak atas dan bawah antar kalimat paragraf*/
+    text-align: justify;/*text menjadi rata kanan dan kiri*/
+}
+
+.box{
+    padding: 1%;
+}
+
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+/*heading*/
+h1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 4px;/*jarak antar  kata*/
+    letter-spacing: 1px;/*jarak antar abjad*/
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 180%;
+    text-align: center;
+    letter-spacing: 1px; 
+    margin-bottom: 30px;
+}
+
+h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    width: 100px;
+    margin: 0 auto;/*membuat posisi tengah pada objek*/
+    margin-top: 30px;
+
+}
+
+h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 110%;
+    margin-bottom: 15px;
+}
