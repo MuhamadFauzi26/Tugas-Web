@@ -1,0 +1,24 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    color: red;
+}
+#p1{
+    color: blueviolet;
+    font-family: fantasy;
+    font: size 70px;
+    font-weight: bold;
+}
+.p2{
+    color: blueviolet;
+    font-family: fantasy;
+    font: size 70px;
+    font-weight: bold;
+}
+li{
+    color: blueviolet;
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: bold;
+}
