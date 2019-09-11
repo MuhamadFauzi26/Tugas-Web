@@ -1,0 +1,40 @@
+.wrap{
+	background: skyblue;
+    width: 1000px;
+	margin: 10px auto;
+}
+.wrap .header{
+	background: skyblue;
+	height: 100px;
+    padding: 10px;
+    border-bottom: 20px solid black;
+}
+.wrap .menu navigasi{
+    background: skyblue;
+    height: 50px;
+    padding: 10px;
+}
+.badan{
+	height: 500px;
+}
+.wrap .badan .sidebar{
+	background: skyblue;
+	float: left;
+	width: 25%;
+    height: 100%;
+    border-top: 20px solid black;
+    border-bottom: 10px solid black;
+}
+.wrap .badan .content{
+	background: skyblue;
+	float: left;
+	height: 100%;
+    width: 75%;
+    border-top: 20px solid black;
+    border-bottom: 10px solid black;
+}
+.wrap .footer{
+    background: skyblue;
+    height: 50px;
+    padding: 10px;
+}
